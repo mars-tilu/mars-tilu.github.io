@@ -24,4 +24,4 @@ jobs:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           EXTERNAL_REPOSITORY: mars-tilu/mars-tilu.github.io
           PUBLISH_BRANCH: main
-          PUBLISH_DIR: /public
+          PUBLISH_DIR: ./public
